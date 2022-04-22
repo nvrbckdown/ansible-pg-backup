@@ -18,3 +18,9 @@ Also you need to fill vars section in playbook.yaml
 db_name: DATABASE_NAME # ansible_db_name
 postgres_db_port: POSTRESQL_PORT # default 5432
 ```
+
+At the end run this command
+```
+ansible-playbook playbook.yaml -K
+```
+ansible will ask you to write sudo passpord.
